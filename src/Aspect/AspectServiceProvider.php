@@ -92,9 +92,6 @@ class AspectServiceProvider extends ServiceProvider
             return new MigrationCommand();
         });
 
-        //  $this->app->singleton('command.entrust.migration', function ($app) {
-        //     return new MigrationCommand();
-        // });
     }
 
      private function mergeConfig()
